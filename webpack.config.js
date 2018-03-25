@@ -2,6 +2,7 @@ const path = require('path');
 
 module.exports = {
   entry: {
+    'pixi': './src/pixi.ts',
     'three-line': './src/three-line.js'
   },
   module: {

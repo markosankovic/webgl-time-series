@@ -12,9 +12,11 @@
   "license": "MIT",
   "dependencies": {
     "dat.gui": "^0.7.1",
+    "pixi.js": "^4.7.1",
     "three": "^0.91.0"
   },
   "devDependencies": {
+    "@types/pixi.js": "^4.7.2",
     "ts-loader": "^4.1.0",
     "typescript": "^2.7.2",
     "webpack": "^4.2.0",
