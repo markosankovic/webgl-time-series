@@ -1,6 +1,6 @@
 // http://jsfiddle.net/w67tzfhx/1082/
 
-import * as THREE from 'three';
+const THREE = require('three');
 window.THREE = THREE;
 require('./TrackballControls');
 const Stats = require('./stats');
