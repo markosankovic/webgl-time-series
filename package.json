@@ -1,0 +1,23 @@
+{
+  "name": "@synapticon/webgl-time-series",
+  "version": "1.0.0",
+  "description": "WebGL Time Series",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx webpack --mode production",
+    "start": "npx webpack --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marko Sanković <msankovic@synapticon.com> (https://github.com/markosankovic)",
+  "license": "MIT",
+  "dependencies": {
+    "dat.gui": "^0.7.1",
+    "three": "^0.91.0"
+  },
+  "devDependencies": {
+    "ts-loader": "^4.1.0",
+    "typescript": "^2.7.2",
+    "webpack": "^4.2.0",
+    "webpack-cli": "^2.0.13"
+  }
+}
