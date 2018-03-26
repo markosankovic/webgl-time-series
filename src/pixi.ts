@@ -18,7 +18,7 @@ const colors = [
 
 // Create a Pixi Application
 let app = new PIXI.Application({
-  antialias: true
+  antialias: false
 });
 
 app.renderer.backgroundColor = 0x19194f;

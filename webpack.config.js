@@ -14,7 +14,7 @@ module.exports = {
     port: 9000
   },
   plugins: [
-    new CleanWebpackPlugin(['dist']),
+    // new CleanWebpackPlugin(['dist']),
     new HtmlWebpackPlugin({
       filename: 'pixi.html',
       template: './src/pixi.html',
