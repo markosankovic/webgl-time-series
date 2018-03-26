@@ -82,7 +82,7 @@ function init() {
     geometry.setDrawRange(0, drawCount);
     const material = new THREE.LineBasicMaterial({
       color: new THREE.Color(colors[i]),
-      linewidth: 3
+      linewidth: 4
     });
     const line = new THREE.Line(geometry, material);
     scene.add(line);
